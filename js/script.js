@@ -17,3 +17,19 @@ counters.forEach((item, i) => {
     lines[i].style.width = item.innerHTML;
 })
 
+window.addEventListener('load', function () {
+    document.querySelector('body').classList.add("loaded")
+});
+
+
+
+
+
+
+
+// hamburger.addEventListener('click', () => {
+//     menu.classList.add('active')
+// })
+// closeElem.addEventListener('click', () => {
+//     menu.classList.remove('active')
+// });
