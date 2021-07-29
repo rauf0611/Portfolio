@@ -22,14 +22,8 @@ window.addEventListener('load', function () {
 });
 
 
-
-
-
-
-
-// hamburger.addEventListener('click', () => {
-//     menu.classList.add('active')
-// })
-// closeElem.addEventListener('click', () => {
-//     menu.classList.remove('active')
-// });
+$(".promo").click(function() {
+    $([document.documentElement, document.body]).animate({
+        scrollTop: $("#elementtoScrollToID").offset().top
+    }, 2000);
+});
